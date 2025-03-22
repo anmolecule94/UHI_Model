@@ -1,0 +1,25 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore datasets (optional)
+data/
+*.csv
+*.xlsx
+
+# Ignore trained models
+models/
+*.pkl
+*.h5
+*.pth
+*.joblib
+
+# Ignore predictions (optional)
+predictions/
+
+# Ignore virtual environment
+venv/
+.env
+
+# Ignore large files (Git LFS will handle them separately)
+*.log
